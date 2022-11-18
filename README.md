@@ -39,7 +39,7 @@ The model features dynamic, modular components that allow for easy-adjustment an
 
 ## Model Components <a name="components"></a>
 
-![MindMap_Visual](https://user-images.githubusercontent.com/13673329/202608914-b000bcb3-9b9f-4254-81b8-44695b23b06b.png)
+![MindMap_Visual](MindMap_Market_Revenue_Model.png)
 
 ### Total Addressable Market <a name="tam"></a>
 
@@ -81,5 +81,5 @@ The model features dynamic, modular components that allow for easy-adjustment an
 
 ## Licensing & Authors <a name="licensing"></a>
 
-All repo assets were were developed by me and are open to all for use.
+All repo assets were developed by me and are open to all for use.
 
