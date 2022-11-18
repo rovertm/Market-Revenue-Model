@@ -39,7 +39,7 @@ The model features dynamic, modular components that allow for easy-adjustment an
 
 ## Model Components <a name="components"></a>
 
-![MindMap_Visual](MindMap_Market_Revenue_Model.png)
+![MindMap_Visual](MindMap_Market-Revenue-Model.png)
 
 ### Total Addressable Market <a name="tam"></a>
 
