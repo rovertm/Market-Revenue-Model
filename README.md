@@ -20,11 +20,10 @@ Download the model [here](https://github.com/rovertm/market_revenue_model/raw/ma
     
     3.4 [Product & Segment Detail](#detail)
     
-    3.5 [Named Ranges](#ranges)
+    3.5 [Key Column Index Methods](#indexing)
 
-4. [Output Example](#outputs)
-5. [File Descriptions](#files)
-6. [Licensing & Authors](#licensing)
+4. [File Descriptions](#files)
+5. [Licensing & Authors](#licensing)
 
 ## About <a name="about"></a>
 
@@ -40,35 +39,45 @@ The model features dynamic, modular components that allow for easy-adjustment an
 
 ## Model Components <a name="components"></a>
 
+![MindMap_Visual](https://user-images.githubusercontent.com/13673329/202608914-b000bcb3-9b9f-4254-81b8-44695b23b06b.png)
+
 ### Total Addressable Market <a name="tam"></a>
 
 * Calculates TAM units by segment per product 
-* Key params: initial TAM units, % change
+* Top-down driver for SAM / SOM units and revenue 
 
 ### Market Revenue <a name="marketrev"></a>
 
+* Calculates TAM / SAM / SOM market revenues via % acquisition assumptions
+* SOM market acquisition % are toggled via 3-case scenarios: base, upside, downside
+
 ### Market Revenue Summary <a name="summary"></a>
+
+![tam_sam_som_byProduct](https://user-images.githubusercontent.com/13673329/202609831-d2441f0e-3bb0-45cc-8f17-19df2c9aae81.png)
+
+![som_byProduct_Segment](https://user-images.githubusercontent.com/13673329/202609752-a2f37dec-62c4-4761-91a4-90d0cb190b79.png)
 
 ### Product & Segment Detail <a name="detail"></a>
 
-### Named Ranges <a name="ranges"></a>
+* Sheet with detail tables for products, market segments, and drivers
+* Product and segment names and IDs are defined here for indexing throughout the model
+* Drivers detail provides guidance for market acquisition assumptions 
 
-## Output Example <a name="outputs"></a>
+### Key Column Index Methods <a name="indexing"></a>
 
-{COOL IMAGE}
-![scraper_flow](NEW_IMAGE_FILE_HERRRRREEEEE.jpeg)
+* Cols B and C are used for line item index IDs
+* IDs enable flexible summary and analysis calculations by product, segment
 
 ## Installation <a name="installation"></a>
 
-* Microsoft Excel - for local device use (not required)
+* Microsoft Excel - required if working local
 * Google Sheets - upload to Google Drive, open as sheets
 
 ## File Descriptions <a name="files"></a>
-{
-* Excel Workbook
-* Mindmap file
-* Mindmap .jpg image. }
 
+* 20221117_Market_Revenue_Model.xlsx - financial model
+* MindMap_Market_Revenue_Model.png - mindmap 
+* MindMapMD_Market_Revenue_Model.md - markdown of components and parameters shown in mindmap
 
 ## Licensing & Authors <a name="licensing"></a>
 
